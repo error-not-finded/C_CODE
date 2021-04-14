@@ -1,3 +1,0 @@
-﻿  test.c
-C:\Users\牛逼就完事了\source\repos\Reverse\test.c(34,6): warning C4013: “gets”未定义；假设外部返回 int
-  Reverse.vcxproj -> C:\Users\牛逼就完事了\source\repos\Reverse\Debug\Reverse.exe
