@@ -1,0 +1,7 @@
+﻿  test.c
+D:\AA\C_CODE\strstr\test.c(11,12): warning C4090: “return”: 不同的“const”限定符
+D:\AA\C_CODE\strstr\test.c(19,10): warning C4090: “=”: 不同的“const”限定符
+D:\AA\C_CODE\strstr\test.c(13,1): warning C4090: “初始化”: 不同的“const”限定符
+D:\AA\C_CODE\strstr\test.c(14,1): warning C4090: “初始化”: 不同的“const”限定符
+D:\AA\C_CODE\strstr\test.c(15,1): warning C4090: “初始化”: 不同的“const”限定符
+  strstr.vcxproj -> D:\AA\C_CODE\strstr\Debug\strstr.exe
