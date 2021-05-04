@@ -1,29 +1,55 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-
-struct ListNode 
+//
+//struct ListNode 
+//{
+//	int val;
+//	struct ListNode* next;
+//};
+//struct ListNode* deleteNode(struct ListNode* head, int val)
+//{
+//    if (head->val == val)
+//    {
+//        head = head->next;
+//        return head;
+//    }
+//    else
+//    {
+//        struct ListNode* tail = head;
+//        struct ListNode* check = head;
+//        while (check->val != val)
+//        {
+//            tail = check;
+//            check = check->next;
+//        }
+//        tail->next = check->next;
+//        return head;
+//    }
+//
+//}
+int reverse(int x)
 {
-	int val;
-	struct ListNode* next;
-};
-struct ListNode* deleteNode(struct ListNode* head, int val)
-{
-    if (head->val == val)
+    if (x > 0)
     {
-        head = head->next;
-        return head;
-    }
-    else
-    {
-        struct ListNode* tail = head;
-        struct ListNode* check = head;
-        while (check->val != val)
+        int num = 0;
+        while (x)
         {
-            tail = check;
-            check = check->next;
+            num = x % 10;
+            x /= 10;
+            printf("%d", num);
         }
-        tail->next = check->next;
-        return head;
     }
-
+    else if (x < 0)
+    {
+        x = -x;
+        int num = 0;
+        printf("-");
+        while (x)
+        {
+            num = x % 10;
+            x /= 10;
+            printf("%d", num);
+        }
+    }
+    return 0;
 }
